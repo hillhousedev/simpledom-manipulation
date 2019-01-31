@@ -1,0 +1,56 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple DOM with Vanilla Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+<body>
+    <h1 id="myheading">DOM Manipulation with Vanilla Javascript</h1>
+    <p>Simple webpage interaction</p>
+
+    <input type="text" id="myTextInput">
+    <button id="myButton">You can change the color of the heading</button>
+
+    <button id="toggleList">Hide Items</button>
+    <div class="list">
+        <p class="description">Color Blue Items:</p>
+        <input type="text" class="description">
+        <button class="description">Change Items Description</button>
+
+        <ul class="firstList">
+            <li>JagunJagun Ibadan
+                <button class="up">Up</button>
+                <button class="down">Down</button>
+                <button class="remove">Remove Item</button>
+            </li>
+            <li class="error-not-blue">Omo Ogun Kurunmi Ijaye
+                <button class="up">Up</button>
+                <button class="down">Down</button>
+                <button class="remove">Remove Item</button>
+            </li>
+
+            <li>Omo Ogun Ogunsiku Balogun Ogun Ijebu
+                    <button class="up">Up</button>
+                    <button class="down">Down</button>
+                    <button class="remove">Remove Item</button>
+                </li>
+        </ul>
+        <input type="text" class="addItemInput">
+        <button class="addItemButton">Add Item</button>
+        <button class="removeItemButton">Remove item</button>
+    </div>
+    <nav id="myNav">
+        <ul>
+            <li>War</li>
+            <li>Economy</li>
+            <li>Politics</li>
+        </ul>
+    </nav>
+    <script src="main.js"></script>
+    <script src="temp.js"></script>
+</body>
+</html>
